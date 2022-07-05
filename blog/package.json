@@ -1,4 +1,3 @@
-aa
 {
   "name": "blog",
   "private": true,
@@ -32,7 +31,7 @@ aa
     "vue-tsc": "^0.34.7"
   },
   "lint-staged": {
-    "*.{js,vue,ts}": "eslint --cache --fix",
-    "*.{js,css,md,vue,ts}": "prettier --write"
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
