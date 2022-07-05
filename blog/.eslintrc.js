@@ -24,8 +24,12 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    'no-unused-vars': RULES.WARN
+    'no-unused-vars': RULES.WARN,
+    'no-multiple-empty-lines': RULES.WARN,
+    'no-trailing-spaces': RULES.OFF
   }
-}
+} 
+
+
 
 
